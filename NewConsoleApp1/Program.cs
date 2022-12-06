@@ -13,6 +13,7 @@ namespace NewConsoleApp1
          static int a = 10;
         static void Main(string[] args)
         {
+            //Added Comment
             IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.google.com/");
             driver.FindElement(By.Name("q")).SendKeys("https://www.amazon.com/");
